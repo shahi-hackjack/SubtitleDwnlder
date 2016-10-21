@@ -1,0 +1,11 @@
+#!/bin/bash 
+
+IFS_BAK=$IFS
+IFS="
+"
+
+for line in $NAUTILUS_SCRIPT_SELECTED_FILE_PATHS; do
+	python "/home/"$USER"/"sub_dwnld.py "$line"
+done
+
+IFS_BAK=$IFS

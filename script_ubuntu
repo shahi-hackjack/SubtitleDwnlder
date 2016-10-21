@@ -1,0 +1,5 @@
+#!/bin/bash 
+
+chmod +x download_Subs 
+cp download_Subs /home/$USER/.local/share/nautilus/scripts/Download_Subs
+cp sub_dwnld.py /home/$USER/sub_dwnld.py 
