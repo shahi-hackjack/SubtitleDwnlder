@@ -38,7 +38,7 @@ def sub_downloader(fname): # Function for downloading subtitles
 		print "Already subtitle for the file exists!"
 		exit()
 
-	headers = { 'User-Agent' : 'SubDB/1.0 (asif/1.0; http://github.com/mohdasif2294/sub_download)' } #SubDB version and User Client as Header
+	headers = { 'User-Agent' : 'SubDB/1.0 (shahi/1.0; http://github.com/shahi-hackjack/sub_download)' } #SubDB version and User Client as Header
 	url="http://api.thesubdb.com/?action=download&hash="+hash_code+"&langauge=en" #SubDB API request for downloading english subtitle
 	
 	try:
