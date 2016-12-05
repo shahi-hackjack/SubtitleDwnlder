@@ -1,8 +1,7 @@
 '''
 Subtitle downloader 1.0
 Using SubDB API
-Made By: Mohammad asif
-Github: mohdasif2294
+Made By: Mohammad Shahenoor
 '''
 import urllib2 #For Get requests
 import os #For directory and filenames
